@@ -37,6 +37,7 @@ This Django API server provides endpoints to retrieve bank and branch informatio
  * /api/banks/: GET endpoint to retrieve a list of all banks.
  * /api/branches/: GET endpoint to retrieve a list of all branches.
  * /api/branches/<ifsc>/: GET endpoint to retrieve details of a specific branch identified by its IFSC code.
+ * path('branches/<str:ifsc>/', BranchDetail.as_view(), name='branch-detail'),
 
 ## API Usage
 
