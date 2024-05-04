@@ -8,3 +8,9 @@ This Django API server provides endpoints to retrieve bank and branch informatio
    ```bash
    git clone <repository_url>
    cd <repository_name>
+2. 1. **Install dependencies**:
+   ```bash
+   pip install -r requirements.txt
+
+   
+   
