@@ -1,6 +1,6 @@
 from django.db import models
 
-class Bk(models.Model):
+class Bank(models.Model):
     name = models.CharField(max_length=49)
 
 class Branch(models.Model):
